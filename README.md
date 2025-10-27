@@ -18,7 +18,7 @@ The agent uses ADK and directs call to models hosted on Vertex AI.
 
     ```bash
     # Clone this repository.
-    git clone https://gitlab.endava.com/lasya.meka/agentthon.git
+    git clone https://github.com/lmeka-endava/agentthon-2810.git
     cd agentthon/marketing-agency
     # create a virtual env
     python3 -m venv python3.11-venv
