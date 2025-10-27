@@ -1,0 +1,10 @@
+google-adk==1.16.0
+google-genai==1.45.0
+google-cloud-aiplatform==1.122.0
+cloudpickle==3.1.1
+pydantic==2.12.2
+python-dotenv==1.2.0
+pytest==8.4.2
+black==25.9.0
+absl-py==2.3.1
+fire==0.7.1

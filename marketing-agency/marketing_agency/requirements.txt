@@ -1,0 +1,4 @@
+google-cloud-aiplatform[adk,agent_engines]
+google-genai
+cloudpickle>=3.0
+python-dotenv==1.2.0
