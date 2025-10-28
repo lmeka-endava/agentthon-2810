@@ -49,6 +49,11 @@ The agent uses ADK and directs call to models hosted on Vertex AI.
         gcloud auth application-default set-quota-project $GOOGLE_CLOUD_PROJECT
         gcloud config set project $GOOGLE_CLOUD_PROJECT
         ```
+    *   Update env.
+        
+        Update .env file in root agent folder and all the sub agent folders, to reflect the correct env variables and values.
+
+        NOTE : env GEMINI_API_KEY , should be used when ADK agents use models via Google AI API endpoint.
 
 
 ## Running the Agent locally
@@ -69,12 +74,6 @@ Or on a web interface:
 ```
 
 ## Deploying to Agent Engine
-
-**Update .env**
-
-Update .env file in root agent folder and all the sub agent folders, to reflect the correct env variables and values.
-
-NOTE : env GEMINI_API_KEY , should be used when ADK agents use models via Google AI API endpoint.
 
 **Deploying a new agent to agent engine**
 
