@@ -45,8 +45,9 @@ The agent uses ADK and directs call to models hosted on Vertex AI.
     *   Authenticate your GCloud account.
 
         ```bash
-        gcloud auth application-default login
+        gcloud auth login
         gcloud auth application-default set-quota-project $GOOGLE_CLOUD_PROJECT
+        gcloud config set project $GOOGLE_CLOUD_PROJECT
         ```
 
 
